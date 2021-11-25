@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  /* width: 100%; */
+  margin: 0 auto;
+  background-color: #5443A5;
+}
+
+header {
+  /* background: #f4f4f4; */
+  background-color: #4363A5;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+/* footer {
+  background: 
+} */
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.member-item {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0.25em 0;
+  
+}
+
+footer {
+  /* margin-top: 2em; */
+  text-align: center;
+  color: #fff;
+  /* background: #f76c6c; */
+  background-color: #8543A5;
+  padding: 4.25em 0;
+  
+}
+
+footer p{
+  font-size: 20px;
+}
+
+.red{
+  font-style: italic bold;
+  font-size: 18px;
+  color: #d82c2e;
+  -webkit-text-stroke:1px white;
+}
+
+.green{
+  font-style: italic bold;
+  font-size: 18px;
+  -webkit-text-stroke: 1px white;
+  color: #2cd890;
+}
+
+input::placeholder{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
